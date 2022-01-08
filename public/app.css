@@ -1,0 +1,30 @@
+.container{
+    background-color: #110f0f;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+h1 {
+    color: white;
+}
+
+.card{
+    max-height: 700px;
+    max-width: 850px;
+    margin: auto;
+}
+
+img {   
+    max-height: 700px;
+    max-width: 850px;
+}
+
+.explain{
+    max-width: 850px;
+    margin: auto;
+}
+
+.info span{
+    color:whitesmoke;
+    font-size: 10px;
+}
