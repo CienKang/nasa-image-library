@@ -7,7 +7,7 @@ const ImageCard = (props) => {
 
         loading ?
 
-            <div className="col-sm-5  circle" >
+            <div className="col-sm-5" >
                 <div className="d-flex flex-column justify-content-center align-items-center circle " style={{ height: `500px` }} >
                     <div className="row"><BallTriangle
                         heigth="100"

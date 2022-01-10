@@ -7,9 +7,9 @@ const Description = (props) => {
         loading ?
 
             <div className="col-sm-7  circle" >
-                <div className="d-flex flex-column justify-content-center align-items-center circle " style={{height: `500px`}} >
+                <div className="d-flex flex-column justify-content-center align-items-center circle " style={{ height: `500px` }} >
                     <div className="row"> FINDING INFO .....</div>
-                    <div className="row"><Circles arialLabel="loading-indicator" color="#c3073f"/></div>
+                    <div className="row"><Circles arialLabel="loading-indicator" color="#c3073f" /></div>
                     <div className="row">PLEASE WAIT</div>
                 </div>
             </div>
@@ -17,8 +17,8 @@ const Description = (props) => {
 
             <div className="col-sm-7" >
                 <div className="card-body">
-                    <h5 className="card-title ti" style={{color:`#9a1750`}}>{data[index].title}</h5>
-                    <p clasNames="card-title tex" style={{color:`#5d001e`}}>{data[index].explanation}</p>
+                    <h5 className="card-title ti" style={{ color: `#9a1750` }}>{data[index].title}</h5>
+                    <p clasNames="card-title tex" style={{ color: `#5d001e` }}>{data[index].explanation}</p>
                 </div>
                 <div className="fx ">
                     <div class="row">

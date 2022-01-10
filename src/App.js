@@ -4,7 +4,7 @@ import MainCard from "./components/mainCard";
 function App() {
   return (
     <div className="container">
-      <HeadBar/>
+      <HeadBar />
       <MainCard />
     </div>
   );
